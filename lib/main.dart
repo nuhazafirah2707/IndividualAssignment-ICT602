@@ -418,12 +418,12 @@ class AboutPage extends StatelessWidget {
   const AboutPage({super.key});
  
   // Change these to your own details
-  static const String authorName = 'YOUR FULL NAME';
-  static const String matricNo = '20XXXXXXXX';
+  static const String authorName = 'Nuha Zafirah Binti Azmi';
+  static const String matricNo = '2024237022';
   static const String course =
       'Bachelor of Computer Science (Hons.) Netcentric Computing';
   static const String githubUrl =
-      'https://github.com/your-username/baggage_fee_calculator';
+      'static const String githubUrl';
  
   Future<void> openGitHub(BuildContext context) async {
     final Uri url = Uri.parse(githubUrl);
