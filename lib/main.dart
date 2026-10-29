@@ -423,7 +423,7 @@ class AboutPage extends StatelessWidget {
   static const String course =
       'Bachelor of Computer Science (Hons.) Netcentric Computing';
   static const String githubUrl =
-      'static const String githubUrl';
+      'https://github.com/nuhazafirah2707/IndividualAssignment-ICT602';
  
   Future<void> openGitHub(BuildContext context) async {
     final Uri url = Uri.parse(githubUrl);
@@ -499,7 +499,7 @@ class AboutPage extends StatelessWidget {
             ClipRRect(
               borderRadius: BorderRadius.circular(20),
               child: Image.asset(
-                'assets/images/appicon.jpg',
+                'assets/icon/appicon.jpg',
                 width: 100,
                 height: 100,
                 fit: BoxFit.cover,
@@ -510,18 +510,18 @@ class AboutPage extends StatelessWidget {
               'Baggage Fee Calculator',
               style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
             ),
-            const Text('Version 1.0.0'),
             const SizedBox(height: 8),
             const Text(
               'This app estimates the excess baggage fee for air travel '
-              'based on baggage weight, ticket class and rate per kg.',
+              'based on baggage weight, ticket class and '
+              'rate per kg.',
               textAlign: TextAlign.center,
             ),
             const SizedBox(height: 24),
  
             // Author information
             buildInfoCard(
-              'assets/images/authorinfo.jpg',
+              'assets/icon/authorinfo.jpg',
               'Author Information',
               const Text(
                 'Name: $authorName\n'
@@ -533,7 +533,7 @@ class AboutPage extends StatelessWidget {
  
             // Copyright notice
             buildInfoCard(
-              'assets/images/copyrightnotice.jpg',
+              'assets/icon/copyrightnotice.jpg',
               'Copyright Notice',
               const Text(
                 '© 2026 $authorName. All rights reserved.\n'
@@ -545,7 +545,7 @@ class AboutPage extends StatelessWidget {
  
             // GitHub repository (clickable URL)
             buildInfoCard(
-              'assets/images/githubicon.png',
+              'assets/icon/githubicon.png',
               'GitHub Repository',
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
