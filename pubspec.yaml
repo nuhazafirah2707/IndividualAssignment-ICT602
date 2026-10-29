@@ -91,14 +91,14 @@ flutter:
   # see https://flutter.dev/to/font-from-package
 
   assets:
-    - assets/images/appicon.jpg
-    - assets/images/authorinfo.jpg
-    - assets/images/copyrightnotice.jpg
-    - assets/images/githubicon.png
+    - assets/icon/appicon.jpg
+    - assets/icon/authorinfo.jpg
+    - assets/icon/copyrightnotice.jpg
+    - assets/icon/githubicon.png
 
 flutter_launcher_icons:
   android: "ic_launcher"
   ios: true
-  image_path: "assets/images/appicon.jpg"
+  image_path: "assets/icon/appicon.jpg"
   adaptive_icon_background: "#FFFFFF"
-  adaptive_icon_foreground: "assets/images/appicon.jpg"
+  adaptive_icon_foreground: "assets/icon/appicon.jpg"
