@@ -97,8 +97,10 @@ flutter:
     - assets/icon/githubicon.png
 
 flutter_launcher_icons:
-  android: "ic_launcher"
+  android: 'ic_launcher'
   ios: true
-  image_path: "assets/icon/appicon.jpg"
-  adaptive_icon_background: "#FFFFFF"
-  adaptive_icon_foreground: "assets/icon/appicon.jpg"
+  image_path: 'assets/icon/appicon.jpg'
+  adaptive_icon_background: '#FFFFFF'
+  adaptive_icon_foreground: 'assets/icon/appicon.jpg'
+
+  remove_alpha_ios: true
